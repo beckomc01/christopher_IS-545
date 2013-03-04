@@ -1,11 +1,19 @@
-﻿<!DOCTYPE html > <html lang="en" xmlns="http://www.w3.org/1999/xhtml" > <style> {
+﻿<!DOCTYPE html > <html lang="en" xmlns="http://www.w3.org/1999/xhtml" > <style> * {
     margin-right:auto; margin-left:auto;
     width: 600px;
 }
-</style > <head > <style > </style > </head > <header > <style > <h1 id="heading name" > Beckom, Christopher</h1 > #heading name {
+#headingname {
     text-align: center;
     font-family: 'Bodoni MT Poster';
     font-style: normal;
+    font-size:20px;
+}
+#video {
+    width: 250px;
+    height: 250px;
+    position: absolute;
+    right: 150px;
+    top: 150px;
 }
 #bar {
     height:8px;
@@ -35,7 +43,7 @@ a:hover {
 #address {
     text-align:justify; 
     }
-address::after {
+address:first-letter {
     content:"\00a9 me";
 }
 </address></footer></html>
