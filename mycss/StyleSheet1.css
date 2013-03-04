@@ -1,0 +1,56 @@
+﻿<!DOCTYPE html > <html lang="en" xmlns="http://www.w3.org/1999/xhtml" > <style> {
+    margin-right:auto; margin-left:auto;
+    width: 600px;
+}
+</style > <head > <style > </style > </head > <header > <style > <h1 id="heading name" > Beckom, Christopher</h1 > #heading name {
+    text-align: center;
+    font-family: 'Bodoni MT Poster';
+    font-style: normal;
+}
+<hr/>
+.hr {
+    height:8px;
+    background-color:#00FF00;
+}
+<nav><ul>
+<li><a href="index.html">Home</a></li>
+<li><a href="webform.html">Web Form</a></li>
+<li><a href="about-me.html">About Me</a></li>
+</ul></nav>
+.nav {
+    margin:12em;
+}
+.a:link {
+    margin:20px;
+    text-decoration:none;
+} /* unvisited link */
+.a:hover {
+    text-decoration:underline;
+    background-color:#FF0000;
+    text-transform:uppercase;
+}
+</style > </header >
+<body></body>
+ <footer > <address > <style > <ul>
+ < li id="contact" > Contact Information</li > 
+ <li id="name" > Christopher Beckom</li > 
+<li id="email"><a href="mailto:christopher.beckom@gmail.com" > Email: christopher.beckom@gmail.com</a ></li>
+ <li id="phone" > Phone: (909) 994-6735</li > 
+.footer {
+    border-top:double;
+    padding-top:5px;
+}
+#name {
+    content:"\00a9 me"; margin:10px;
+}
+#contact {
+    margin:10px;
+}
+#email {
+    margin:10px;
+}
+#phone {
+    margin:10px;
+}
+</address></footer></html>
+ 
