@@ -28,25 +28,15 @@ a:hover {
     background-color:#FF0000;
     text-transform:uppercase;
 }
-</style > </header >
-<body></body>
- <footer > <style > 
 #footer {
     border-top:double;
     padding-top:5px;
 }
-.name {
-    margin-right:20px;
-}
-content name::after {
+#address {
+    text-align:justify; 
+    }
+address::after {
     content:"\00a9 me";
 }
-.email {
-    margin-right:20px;
-}
-.phone {
-    margin-right:20px;
-}
-
 </address></footer></html>
  

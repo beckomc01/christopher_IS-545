@@ -2,12 +2,11 @@
     margin-right:auto; margin-left:auto;
     width: 600px;
 }
-</style > <head > </head > <body > <style > 
-#title {
-    text-align: center;
-    font-family: 'Baskerville Old Face';
-    font-size: 30px;
-    background-color: #0000CC;
+#title {  
+    font-family:'Baskerville Old Face';
+    font-size:30px;
+    text-align:center;
+    color:#0000CC;
 }
 #img {
     position:absolute;
@@ -16,12 +15,11 @@
     width: 200px;
     height: 200px;
 }
-#section header {
+#header {
     font-family:'Baskerville Old Face';
     font-size:30px;
     text-align:left;
-    background-color:#330033;
-
+    color:#663399;
 }
 </style> </body>
 </html>
