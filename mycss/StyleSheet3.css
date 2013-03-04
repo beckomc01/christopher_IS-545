@@ -1,0 +1,27 @@
+﻿<!DOCTYPE html > <html lang="en" xmlns="http://www.w3.org/1999/xhtml" > <style> {
+    margin-right:auto; margin-left:auto;
+    width: 600px;
+}
+</style > <head > </head > <body > <style > 
+#title {
+    text-align: center;
+    font-family: 'Baskerville Old Face';
+    font-size: 30px;
+    background-color: #0000CC;
+}
+#img {
+    position:absolute;
+    right: 100px;
+    top: 240px;
+    width: 200px;
+    height: 200px;
+}
+#section header {
+    font-family:'Baskerville Old Face';
+    font-size:30px;
+    text-align:left;
+    background-color:#330033;
+
+}
+</style> </body>
+</html>

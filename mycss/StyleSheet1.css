@@ -7,8 +7,7 @@
     font-family: 'Bodoni MT Poster';
     font-style: normal;
 }
-<hr/>
-.hr {
+#bar {
     height:8px;
     background-color:#00FF00;
 }
@@ -17,40 +16,37 @@
 <li><a href="webform.html">Web Form</a></li>
 <li><a href="about-me.html">About Me</a></li>
 </ul></nav>
-.nav {
+#nav {
     margin:12em;
 }
-.a:link {
+a:link {
     margin:20px;
     text-decoration:none;
 } /* unvisited link */
-.a:hover {
+a:hover {
     text-decoration:underline;
     background-color:#FF0000;
     text-transform:uppercase;
 }
 </style > </header >
 <body></body>
- <footer > <address > <style > <ul>
- < li id="contact" > Contact Information</li > 
- <li id="name" > Christopher Beckom</li > 
-<li id="email"><a href="mailto:christopher.beckom@gmail.com" > Email: christopher.beckom@gmail.com</a ></li>
- <li id="phone" > Phone: (909) 994-6735</li > 
-.footer {
+ <footer > <style > 
+#footer {
     border-top:double;
     padding-top:5px;
 }
-#name {
-    content:"\00a9 me"; margin:10px;
+.name {
+    margin-right:20px;
 }
-#contact {
-    margin:10px;
+content name::after {
+    content:"\00a9 me";
 }
-#email {
-    margin:10px;
+.email {
+    margin-right:20px;
 }
-#phone {
-    margin:10px;
+.phone {
+    margin-right:20px;
 }
+
 </address></footer></html>
  

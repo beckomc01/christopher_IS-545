@@ -2,8 +2,9 @@
     margin-right:auto; margin-left:auto;
     width: 600px;
 }
-</style > <head > </head > <body > <style > #Webform Table {
+</style > <head > </head > <body > <style > #Webform {
     border: solid;
+    border-width:5px;
     border-color: #006600; 
     padding:10px;
 }
