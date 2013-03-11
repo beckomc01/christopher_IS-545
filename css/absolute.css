@@ -59,8 +59,8 @@ article {
     width: 449px;
     height:275px;
     position:absolute;
-    top:77px;
-    left: 313px;
+    top:79px;
+    left: 341px;
     z-index:-1;
 }
 
@@ -79,8 +79,8 @@ aside {
     margin-top: 0px;
     margin-bottom: 0px;
     position:absolute;
-    top:76px;
-    left: 769px;
+    top:79px;
+    left: 797px;
 }
 
 footer {
@@ -90,6 +90,6 @@ footer {
     height: 25px;
     position:absolute;
     top:354px;
-    left: 315px;
+    left: 342px;
 }
 
