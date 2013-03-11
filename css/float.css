@@ -1,3 +1,87 @@
 ﻿body
-{
+{ 
+    background-color:white;
+    margin-left:auto;
+    margin-right:auto;
+    width:680px;
+    height:379px;
 }
+
+h1, h2, h3, h4, h5, h6 {
+    font-family:'Times New Roman';
+    font-size:14px;
+    color:white;
+    text-align:center;
+}
+
+header {
+    text-align:center;
+    background-color:rgb(0, 38, 255);
+    width:680px;
+    height:50px;
+}
+
+nav {
+    text-align:center;
+    background-color:rgb(0, 255, 33);
+    width:680px;
+    height:25px;
+}
+
+a {
+    margin-left: 4px;
+    margin-right: 4px;
+}
+
+a:link {
+    color:white;
+    text-decoration:underline;
+}
+
+a:visted {
+    color:black;
+    text-decoration:underline;
+}
+
+a:hover {
+    color:red;
+    text-decoration:none;
+    text-transform:capitalize;
+}
+
+article {
+    text-align:center;
+    background-color:rgb(72, 0, 255);
+    float:left;
+    width:66%;
+    height:275px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+section {
+    text-align:center;
+    background-color:rgb(0, 255, 255);
+    width:449px;
+    height:80px;
+    
+}
+
+aside {
+    text-align:center;
+    background-color:rgb(255, 0, 0);
+    float: left;
+    width:33%;
+    height:275px;
+    margin-top: 0px;
+    margin-bottom: 0px; 
+}
+
+footer {
+    text-align: center;
+    background-color: rgb(0, 255, 33);
+    clear:both;
+    width: 680px;
+    height: 25px;
+}
+

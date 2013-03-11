@@ -4,7 +4,7 @@
     margin-left:auto;
     margin-right:auto;
     width:680px;
-    height:640px;
+    height:365px;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -59,39 +59,28 @@ article {
     width: 449px;
     height:275px;
     position:absolute;
-    top:75px;
-    z-index: 3;   
+    top:77px;
+    left: 313px;
+    z-index:-1;
 }
 
-#section 1 {
+section {
     text-align:center;
     background-color:aquamarine;
     width:449px;
     height:80px;
-    position:absolute;
-    top:100px;
-    z-index:-1;
-}
-
-#section 2 {
-    text-align: center;
-    background-color:aquamarine;
-    width: 449px;
-    height: 80px;
-    position: absolute;
-    top: 210px;
-    z-index:-1;
 }
 
 aside {
     text-align:center;
     background-color:rgb(255, 0, 0);
-    width:224px;
+    width:225px;
     height:275px;
     margin-top: 0px;
     margin-bottom: 0px;
     position:absolute;
-    top:350px;
+    top:76px;
+    left: 769px;
 }
 
 footer {
@@ -100,6 +89,7 @@ footer {
     width: 680px;
     height: 25px;
     position:absolute;
-    top:625px;
+    top:354px;
+    left: 315px;
 }
 
