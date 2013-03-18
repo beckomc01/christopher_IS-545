@@ -24,6 +24,7 @@ header {
     height:50px;
     -webkit-box-flex:0;
     flex:0;
+    flex-item-align:baseline;
 }
 
 nav {
@@ -31,8 +32,18 @@ nav {
     background-color:rgb(0, 255, 33);
     width:680px;
     height:25px;
-    -webkit-box-flex:0;
-    flex:0;
+    display:-webkit-box;
+    display: flexbox;
+    flex-direction:column;
+    -webkit-box-flex:5;
+    flex:5;
+   flex-wrap:nowrap;
+   flex-item-align:center;
+   flex-flow:column;
+   min-height: 50px;
+   min-width: 50px;
+   -webkit-box-align:center;
+   -webkit-box-direction:normal;
 }
 
 a {
@@ -63,6 +74,7 @@ article {
     height:275px;
     margin-top: 0px;
     margin-bottom: 0px;
+    flex-item-align:baseline;
     }
 
 article > section {
@@ -105,7 +117,7 @@ footer {
     flex-direction:row;
     -webkit-box-flex:5;
     flex:5;
-   flex-wrap:wrap
+   flex-wrap:wrap;
    flex-item-align:center;
    min-height: 50px;
    min-width: 50px;

@@ -1,0 +1,22 @@
+﻿body
+{
+    background-color: white;
+    margin-left: auto;
+    margin-right: auto;
+    width: 640px;
+    height: 480px;
+}
+
+h1 {
+    font-family: 'Bookman Old Style';
+    color: blue;
+    text-align: left;
+}
+
+ul {
+    border: 10px solid green;
+}
+
+#else {
+    color: red;
+}
