@@ -1,0 +1,19 @@
+﻿body {
+    background-color:white;
+    margin-left:auto;
+    margin-right:auto;
+    width:680px;
+    height:400px;
+}
+
+#Name {
+    padding: 10px;
+}
+
+#Address {
+    padding: 10px;
+}
+
+#Done {
+    text-decoration: none;
+}
