@@ -11,7 +11,7 @@
     <form id="form1" runat="server">
     <div>
     <h1>A Demo of Wizard Server Control</h1> 
-        <asp:Wizard ID="Wizard1" runat="server" ActiveStepIndex="2" Height="411px" Width="678px" OnFinishButtonClick="Wizard1_FinishButtonClick">
+        <asp:Wizard ID="Wizard1" runat="server" ActiveStepIndex="0" Height="411px" Width="678px" OnFinishButtonClick="Wizard1_FinishButtonClick">
             <SideBarTemplate>
                 <asp:DataList ID="SideBarList" runat="server">
                     <ItemTemplate>
